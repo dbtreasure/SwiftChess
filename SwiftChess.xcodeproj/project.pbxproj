@@ -14,6 +14,7 @@
 		375659C02834AFF4007E9E53 /* SwiftChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375659BF2834AFF4007E9E53 /* SwiftChessTests.swift */; };
 		375659CA2834AFF4007E9E53 /* SwiftChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375659C92834AFF4007E9E53 /* SwiftChessUITests.swift */; };
 		375659CC2834AFF4007E9E53 /* SwiftChessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375659CB2834AFF4007E9E53 /* SwiftChessUITestsLaunchTests.swift */; };
+		375659DB2834B04B007E9E53 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375659DA2834B04B007E9E53 /* Board.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		375659C52834AFF4007E9E53 /* SwiftChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		375659C92834AFF4007E9E53 /* SwiftChessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChessUITests.swift; sourceTree = "<group>"; };
 		375659CB2834AFF4007E9E53 /* SwiftChessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		375659DA2834B04B007E9E53 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				375659B02834AFF3007E9E53 /* ContentView.swift */,
 				375659B22834AFF4007E9E53 /* Assets.xcassets */,
 				375659B42834AFF4007E9E53 /* Preview Content */,
+				375659DA2834B04B007E9E53 /* Board.swift */,
 			);
 			path = SwiftChess;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				375659B12834AFF3007E9E53 /* ContentView.swift in Sources */,
 				375659AF2834AFF3007E9E53 /* SwiftChessApp.swift in Sources */,
+				375659DB2834B04B007E9E53 /* Board.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
